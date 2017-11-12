@@ -1,0 +1,21 @@
+.karta1 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/cards2.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -290px -200px;
+    width: 145px;
+    height: 190px;
+}
+.karta2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/cards2.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -150px -970px;
+    width: 140px;
+    height: 190px;
+}
+.karta3 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/cards2.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -430px -2330px;
+    width: 140px;
+    height: 190px;
+}
