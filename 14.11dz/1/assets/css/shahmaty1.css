@@ -14,7 +14,9 @@
 }
 
 .black {
-    background: black;
+    background-color: black;
 }
-
+.lad {
+    background-image: url(assets/img/lad2.png);
+}
 
