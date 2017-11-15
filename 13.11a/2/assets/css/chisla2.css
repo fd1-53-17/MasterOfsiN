@@ -1,0 +1,38 @@
+.row > div {
+    display: inline-block;
+    width: 10px;
+}
+.row {
+    clear: left;
+    width: 40px;
+}
+.right {
+    float: right;
+}
+.left1 {
+    float: left;
+}
+.right1 {
+    float: right; 
+}
+.one {
+    float: right;
+}
+.two {
+    float: left;
+}
+.three {
+    float: left;
+}
+.two1 {
+    float: right;
+}
+.three1 {
+    float: left;
+}
+.one2 {
+    float: right;
+}
+.three2 {
+    float: left;
+}
