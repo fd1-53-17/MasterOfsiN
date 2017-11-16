@@ -1,53 +1,56 @@
 header {
     border: 1px solid #b5b0ff;
-    width: 700px;
-    height: 60px;
     text-align: center;
     background-color: #b5b0ff;
 }
+
 .head {
-    margin-top: 18px;
     color: blue;
     font-size: 20px;
 }
+
 aside {
     border: 1px solid yellow;
     height: 400px;
     width: 150px;
     background-color: yellow;
-    float: left; 
+    float: left;
 }
+
 contein {
     display: block;
     height: 400px;
-    width: 550px;
     margin-left: 150px;
-    
+
 }
+
 .ball {
-    background-image: url(../img/ball.png);
+    background-image: url(../img/ball3.png);
     float: right;
     width: 47px;
-    height: 383px;
+    height: 400px;
+    margin-top: -15px;
 }
+
 .image {
-    background-image: url(../img/foto.png);
+    background-image: url(../img/foto3.png);
     width: 200px;
     height: 133px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 20px;
     float: left;
+
 }
+
 .name {
     text-align: center;
     font-weight: bold;
     font-size: large;
 }
+
 footer {
     border: 1px solid #b5b0ff;
-    width: 700px;
-    height: 80px;
     text-align: center;
     margin-top: -15px;
     background-color: #b5b0ff;
