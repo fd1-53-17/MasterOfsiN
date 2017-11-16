@@ -25,13 +25,13 @@ contein {
     
 }
 .ball {
-    background-image: url(../img/ball2.png);
+    background-image: url(../img/ball.png);
     float: right;
     width: 47px;
     height: 383px;
 }
 .image {
-    background-image: url(../img/foto2.png);
+    background-image: url(../img/foto.png);
     width: 200px;
     height: 133px;
     margin-left: 15px;
