@@ -1,0 +1,158 @@
+.wrapper {
+    position: relative;
+    width: 840px;
+    height: 1000px;
+}
+
+header {
+    position: relative;
+    display: block;
+    padding: 50px
+}
+
+.block1 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 105px;
+    height: 90px;
+    background-color: grey;
+}
+
+.block2 {
+    position: absolute;
+    top: 5px;
+    left: 135px;
+    height: 90px;
+    width: 238px;
+    background-color: grey;
+}
+
+.block3 {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    height: 90px;
+    width: 440px;
+    background-color: grey;
+}
+
+main {
+    position: relative;
+    height: 698px;
+    width: 840px;
+}
+
+aside {
+    position: absolute;
+    padding-top: 700px;
+    width: 158px
+}
+
+.block4 {
+    position: absolute;
+    top: 0;
+    width: 158px;
+    height: 287px;
+    background-color: grey;
+}
+
+.block5 {
+    position: absolute;
+    bottom: 0;
+    width: 158px;
+    height: 113px;
+    background-color: grey;
+}
+
+article {
+    position: relative;
+    left: 190px;
+    width: 650px;
+    padding-top: 700px
+}
+
+.block6 {
+    position: absolute;
+    top: 0;
+    width: 650px;
+    height: 180px;
+    background-color: #a9a9a9;
+}
+
+ul {
+    position: absolute;
+    left: 0;
+    top: 190px;
+    margin-left: -53px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    width: 115px;
+    height: 130px;
+    background-color: #a9a9a9;
+    margin-left: 14.4px;
+    margin-top: 14.4px;
+}
+
+.block7 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 170px;
+    width: 314px;
+    background-color: #a9a9a9;
+}
+
+.block8 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 170px;
+    width: 317px;
+    background-color: #a9a9a9;
+}
+
+footer {
+    position: relative;
+    padding-top: 180px;
+}
+
+.block9 {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 255px;
+    height: 152px;
+    background-color: #a9a9a9;
+}
+
+.block10 {
+    position: absolute;
+    top: 25px;
+    left: 285px;
+    width: 255px;
+    height: 152px;
+    background-color: #a9a9a9;
+}
+
+.block11 {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 263px;
+    height: 63px;
+    background-color: #a9a9a9;
+}
+
+.block12 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 263px;
+    height: 63px;
+    background-color: #a9a9a9;
+
+}
