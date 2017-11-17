@@ -1,0 +1,22 @@
+.stroka>div {
+    width: 8vmin;
+    height: 8vmin;
+    border: 1px solid black;
+    text-align: center
+}
+
+.board {
+    float: left;
+}
+
+.board1 {
+    float: left;
+}
+
+.black {
+    background-color: black;
+}
+.lad {
+    background-image: url(assets/img/lad2.png);
+}
+

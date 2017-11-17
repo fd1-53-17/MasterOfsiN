@@ -1,0 +1,61 @@
+table {
+    display: block;
+    border-collapse: collapse;
+}
+
+.block1 {
+    width: 90vw;
+    height: 8vh;
+    float: left;
+    background-color: #b5b0ff;
+    text-align: center;
+    padding-top: 5vh;
+    color: blue;
+}
+
+.block2 {
+    width: 30vw;
+    height: 80vh;
+    float: left;
+    background-color: yellow;
+}
+
+.block3 {
+    width: 60vw;
+    height: 80vh;
+    float: right;
+}
+
+.block4 {
+    width: 90vw;
+    height: 10vh;
+    float: left;
+    background-color: #b5b0ff;
+    text-align: center;
+    padding-top: 6vh;
+    color: blue;
+}
+
+.thems {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.image {
+    background-image: url(../img/foto.png);
+    width: 200px;
+    height: 133px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.ball {
+    background-image: url(../img/ball.png);
+    float: right;
+    width: 47px;
+    height: 70vh;
+    margin-top: -57px;
+}
