@@ -1,0 +1,28 @@
+div {
+    position: absolute;
+}
+.karta1 {
+    z-index: 30;
+    background-image: url(../img/tri.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 190px;
+}
+.karta2 {
+    z-index: 20;
+    top: 55px;
+    left: 55px;
+    background-image: url(../img/sem.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 190px;
+}
+.karta3 {
+    z-index: 10;
+    top: 110px;
+    left: 110px;
+    background-image: url(../img/tuz.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 190px;
+}
