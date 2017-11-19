@@ -1,0 +1,912 @@
+.board {
+    outline: 1px solid black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.stroka {
+    position: relative;
+
+}
+
+.kletka {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    outline: 1px solid black;
+}
+
+.black {
+    background-color: grey;
+}
+
+.kletka1 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka2 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka3 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka4 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka5 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka6 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka7 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka8 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka9 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka11 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka12 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka13 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka14 {
+    background-image: url(../img/queen2.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka15 {
+    background-image: url(../img/king2.png);
+    background-repeat: no-repeat;
+    background-position: -1px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka16 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka17 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka18 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka19 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka20 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka21 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka22 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka23 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka24 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka25 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka26 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka27 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka28 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka29 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka30 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka31 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka32 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka33 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka34 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka35 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka36 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka37 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka38 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka39 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka40 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka41 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka42 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka43 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka44 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka45 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka46 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka47 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka48 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka49 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka50 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka51 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka52 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka53 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka54 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka55 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka56 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka57 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka58 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka59 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka60 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka61 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka62 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka63 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka64 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka65 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka66 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka67 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka68 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka69 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka70 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka71 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka72 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka73 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka74 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka75 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka76 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka77 {
+    background-image: url(../img/queen1.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka78 {
+    background-image: url(../img/king1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka79 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka80 {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka81 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka82 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka83 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka84 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka85 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka86 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka87 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka88 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka89 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka90 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka91 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.pesh2 {
+    background-image: url(../img/pesh2.png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+
+}
+
+.lad2 {
+    background-image: url(../img/lad2.png);
+    background-repeat: no-repeat;
+}
+
+.horse2 {
+    background-image: url(../img/horse2.png);
+    background-repeat: no-repeat;
+}
+
+.el2 {
+    background-image: url(../img/el2.png);
+    background-repeat: no-repeat;
+}
+
+.pesh1 {
+    background-image: url(../img/pesh1.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.lad1 {
+    background-image: url(../img/lad1.png);
+    background-repeat: no-repeat;
+}
+
+.horse1 {
+    background-image: url(../img/horse1.png);
+    background-repeat: no-repeat;
+}
+
+.el1 {
+    background-image: url(../img/el1.png);
+    background-repeat: no-repeat;
+
+}
