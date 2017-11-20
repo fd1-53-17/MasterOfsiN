@@ -1,0 +1,12 @@
+li {
+  display: inline-block;
+  margin-left: 50px;
+  
+}
+li:not(:last-child):after  {
+  content: "|";
+}
+li:first-child:before {
+  font-family: "untitled-font-1";
+  content: "a ";
+}
