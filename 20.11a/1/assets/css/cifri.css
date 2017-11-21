@@ -7,7 +7,7 @@
 .row>div::before {
   counter-increment: number;
   content: counter(number);
-  display: inline-block;
+  
 }
 
 .row:nth-of-type(2)>div:nth-of-type(2):before {
