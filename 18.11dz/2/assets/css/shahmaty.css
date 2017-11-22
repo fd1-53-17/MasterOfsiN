@@ -1,0 +1,209 @@
+.board {
+    outline: 1px solid black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.stroka {
+    position: relative;
+
+}
+
+.kletka {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    outline: 1px solid black;
+}
+
+.black {
+    background-color: grey;
+}
+
+.kletka1 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka2 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka3 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka4 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka5 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka6 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka7 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka8 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka9 {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka10 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -48px 3px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka11 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka12 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -48px -48px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.kletka13 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: 5px -48px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.pesh2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -260px 0px;
+}
+
+.lad2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -100px 0px;
+}
+
+.horse2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -210px 0px;
+}
+
+.el2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -153px 0px;
+}
+
+.pesh1 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -260px -50px;;
+}
+
+.lad1 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -100px -50px;
+}
+
+.horse1 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -210px -50px;
+}
+
+.el1 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: -153px -50px;
+
+}
