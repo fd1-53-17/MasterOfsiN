@@ -1,0 +1,38 @@
+.fon {
+    padding: 5px;
+    font-size: 20px
+}
+
+div {
+    float: left;
+}
+
+.fon>div {
+    padding: 5px 10px 20px 10px;
+    text-decoration: underline;
+    color: #00bfff;
+    position: relative;
+    z-index: 5;
+}
+
+.fon>div:hover {
+    background-color: darkorange;
+    text-decoration: none;
+    color: white;
+}
+
+.neline {
+    border: 5px solid white;
+    width: 310px;
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+}
+
+.line {
+    width: 310px;
+    border-bottom: 5px solid lightgrey;
+    position: absolute;
+    top: 55px;
+    left: 13px;
+}

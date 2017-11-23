@@ -1,0 +1,39 @@
+body {
+    font-family: monospace;
+    width: 600px
+}
+
+em {
+    color: grey;
+}
+
+.cyon {
+    color: cyan;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.first {
+    background-color: #F0EFEF;
+}
+
+.canv {
+    background-color: #F0EFEF;
+}
+
+.scroll {
+    background-color: #F0EFEF;
+    white-space: nowrap;
+    overflow-x: auto;
+
+}
+
+.get {
+    background-color: #F0EFEF;
+}

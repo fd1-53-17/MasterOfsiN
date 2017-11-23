@@ -1,0 +1,30 @@
+.main {
+    height: 100px;
+    width: 300px;
+    background-color: #ffb6c1;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    z-index: 20;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.triangle {
+    border-top: 35px solid #ffb6c1;
+    border-right: 25px solid transparent;
+    border-left: 5px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 112px;
+    left: 130px;
+    transform: skew(-40deg);
+}
+
+p {
+    position: relative;
+    color: #4b0082;
+    top: 125px;
+    font-size: 20px;
+}

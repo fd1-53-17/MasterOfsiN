@@ -1,0 +1,44 @@
+.main {
+    width: 100vmin;
+    height: 50vmin;
+    background-color: lightgrey;
+    position: relative;
+    top: 20vmin;
+    left: 20vmin;
+}
+
+.triangle1 {
+    position: absolute;
+    top: 10vmin;
+    left: 35vmin;
+    border-top: 25vmin solid green;
+    border-bottom: 10vmin solid rgba(10%, 20%, 10%, 0);
+    border-right: 15vmin solid rgba(10%, 10%, 20%, 0);
+    border-left: 15vmin solid rgba(10%, 10%, 10%, 0);
+    width: 0;
+    height: 0;
+}
+
+.triangle2 {
+    position: absolute;
+    bottom: 15vmin;
+    left: 15vmin;
+    border-top: 7vmin solid rgba(10%, 10%, 10%, 0);
+    border-bottom: 7vmin solid green;
+    border-right: 7vmin solid rgba(10%, 10%, 10%, 0);
+    border-left: 7vmin solid rgba(10%, 10%, 10%, 0);
+    width: 0;
+    height: 0;
+}
+
+.triangle3 {
+    position: absolute;
+    bottom: 15vmin;
+    right: 15vmin;
+    border-top: 7vmin solid rgba(10%, 10%, 10%, 0);
+    border-bottom: 7vmin solid green;
+    border-right: 7vmin solid rgba(10%, 10%, 10%, 0);
+    border-left: 7vmin solid rgba(10%, 10%, 10%, 0);
+    width: 0;
+    height: 0;
+}
