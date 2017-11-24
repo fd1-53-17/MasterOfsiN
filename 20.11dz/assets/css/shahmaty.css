@@ -1,0 +1,343 @@
+.chessTable {
+    width: 100vmin;
+    height: 100vmin;
+
+}
+
+.chessTable>div {
+    position: relative;
+    top: 0vmin;
+    left: 0vmin;
+    float: left;
+    outline: 1px solid black;
+    width: 10%;
+    height: 10%;
+}
+
+div:nth-of-type(n+11):not(:nth-of-type(n+51)):before {
+    display: block;
+    outline: 1px solid;
+    content: '';
+    width: 10vmin;
+    height: 10vmin;
+    position: absolute;
+    left: 0vmin;
+    top: 50vmin;
+}
+
+div:nth-of-type(2n+13):not(:nth-of-type(n+20)) {
+    background-color: grey;
+}
+
+div:nth-of-type(2n+22):not(:nth-of-type(n+30)) {
+    background-color: grey;
+}
+
+div:nth-of-type(2n+33):not(:nth-of-type(n+40)) {
+    background-color: grey;
+}
+
+div:nth-of-type(2n+42):not(:nth-of-type(n+50)) {
+    background-color: grey;
+}
+
+div:nth-of-type(2n+53):not(:nth-of-type(n+60)) {
+    background-color: grey;
+}
+
+div:nth-of-type(2n+62) {
+    background-color: grey;
+}
+
+div:nth-of-type(2n+12):not(:nth-of-type(n+20)):before {
+    background-color: grey;
+
+}
+
+div:nth-of-type(2n+23):not(:nth-of-type(n+30)):before {
+    background-color: grey;
+}
+
+div:nth-of-type(2n+32):not(:nth-of-type(n+40)):before {
+    background-color: grey;
+}
+
+div:nth-of-type(n+21):not(:nth-of-type(n+22)):before {
+    content: counter(number);
+    counter-increment: number 2;
+    text-align: center;
+}
+
+div:nth-of-type(n+31):not(:nth-of-type(n+32)):before {
+    content: counter(number);
+    counter-increment: number 1;
+    text-align: center;
+}
+
+div:nth-of-type(n+20):not(:nth-of-type(n+21)):before {
+    content: counter(number);
+    counter-increment: number 3;
+    text-align: center;
+}
+
+div:nth-of-type(n+30):not(:nth-of-type(n+31)):before {
+    content: counter(number);
+    counter-increment: number 2;
+    text-align: center;
+}
+
+div:nth-of-type(n+40):not(:nth-of-type(n+41)):before {
+    content: counter(number);
+    counter-increment: number 1;
+    text-align: center;
+}
+
+div:nth-of-type(n+42):not(:nth-of-type(n+43)):before {
+    content: "a";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(n+43):not(:nth-of-type(n+44)):before {
+    content: "b";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(n+44):not(:nth-of-type(n+45)):before {
+    content: "c";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(n+45):not(:nth-of-type(n+46)):before {
+    content: "d";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(n+46):not(:nth-of-type(n+47)):before {
+    content: "e";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(n+47):not(:nth-of-type(n+48)):before {
+    content: "f";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(n+48):not(:nth-of-type(n+49)):before {
+    content: "g";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(n+49):not(:nth-of-type(n+50)):before {
+    content: "h";
+    text-align: center;
+    font-size: large;
+}
+
+div:nth-of-type(2):after {
+    content: "a";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(3):after {
+    content: "b";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(4):after {
+    content: "c";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(5):after {
+    content: "d";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(6):after {
+    content: "e";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(7):after {
+    content: "f";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(8):after {
+    content: "g";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(9):after {
+    content: "h";
+    margin: 4vmin;
+    font-size: large;
+}
+
+div:nth-of-type(10n+1):not(:nth-of-type(1)):after {
+    content: counter(number);
+    counter-increment: number;
+    margin: 4vmin;
+}
+
+div:nth-of-type(11):after {
+    counter-reset: number 7;
+}
+
+div:nth-of-type(21):after {
+    counter-reset: number 6;
+}
+
+div:nth-of-type(31):after {
+    counter-reset: number 5;
+}
+
+div:nth-of-type(41):after {
+    counter-reset: number 4;
+}
+
+div:nth-of-type(51):after {
+    counter-reset: number 3;
+}
+
+div:nth-of-type(61):after {
+    counter-reset: number 2;
+}
+
+div:nth-of-type(10n):not(:nth-of-type(10)):after {
+    content: counter(number);
+    counter-increment: number;
+    margin: 4vmin;
+}
+
+div:nth-of-type(20):after {
+    counter-reset: number 7;
+}
+
+div:nth-of-type(30):after {
+    counter-reset: number 6;
+}
+
+div:nth-of-type(40):after {
+    counter-reset: number 5;
+}
+
+div:nth-of-type(50):after {
+    counter-reset: number 4;
+}
+
+div:nth-of-type(60):after {
+    counter-reset: number 3;
+}
+
+div:nth-of-type(12),
+div:nth-of-type(19) {
+    background: url(../img/chess.png) no-repeat 40% -10%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(12):hover,
+div:nth-of-type(19):hover {
+    background-position: 40% 115%;
+}
+
+div:nth-of-type(13),
+div:nth-of-type(18) {
+    background: url(../img/chess.png) no-repeat 83% -10%;
+    background-size: 55vmin
+}
+
+div:nth-of-type(13):hover,
+div:nth-of-type(18):hover {
+    background-position: 83% 115%;
+}
+
+div:nth-of-type(14),
+div:nth-of-type(17) {
+    background: url(../img/chess.png) no-repeat 61% -10%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(14):hover,
+div:nth-of-type(17):hover {
+    background-position: 61% 115%;
+}
+
+div:nth-of-type(15) {
+    background: url(../img/chess.png) no-repeat 19% -10%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(15):hover {
+    background-position: 19% 115%;
+}
+
+div:nth-of-type(16) {
+    background: url(../img/chess.png) no-repeat -3% -10%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(16):hover {
+    background-position: -3% 115%;
+}
+
+
+div:nth-of-type(n+22):not(:nth-of-type(n+30)) {
+    background-image: url(../img/chess.png);
+    background-position: 106% -10%;
+    background-repeat: no-repeat;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(n+22):not(:nth-of-type(n+30)):hover {
+    background-position: 106% 115%;
+}
+
+div:nth-of-type(32):before,
+div:nth-of-type(39):before {
+    background: url(../img/chess.png) no-repeat 40% 112%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(33):before,
+div:nth-of-type(38):before {
+    background: url(../img/chess.png) no-repeat 83% 112%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(34):before,
+div:nth-of-type(37):before {
+    background: url(../img/chess.png) no-repeat 61% 112%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(35):before {
+    background: url(../img/chess.png) no-repeat 19% 112%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(36):before {
+    background: url(../img/chess.png) no-repeat -3% 112%;
+    background-size: 55vmin;
+}
+
+div:nth-of-type(n+22):not(:nth-of-type(n+30)):before {
+    background-image: url(../img/chess.png);
+    background-position: 106% 112%;
+    background-repeat: no-repeat;
+    background-size: 55vmin;
+}
