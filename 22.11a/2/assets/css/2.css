@@ -1,0 +1,37 @@
+body {
+    width: 510px
+}
+div {
+    background-color: lightgrey;
+    font-family: monospace;
+}
+.table1 {
+    width: 500px;
+    border: 1px solid grey;
+    padding: 3px;
+}
+.table2 {
+    font-family: monospace;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 2px;
+}
+.table3 {
+    width: 500px;
+    padding: 3px;
+    border: 1px solid grey;
+}
+.table5 {
+    font-family: monospace;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 2px;
+}
+.table4 {
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 500px
+}
+.green {
+    color: green;
+}

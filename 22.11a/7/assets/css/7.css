@@ -1,0 +1,47 @@
+.main {
+    width: 400px;
+    position: relative;
+    height: 100px
+}
+
+.sale {
+    font-weight: bold;
+    font-size: large;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.time {
+    margin-top: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    clear: left;
+}
+
+.time::before {
+    font-family: untitled-font-1;
+    content: "b"
+}
+
+.skidka {
+    border: 1px dashed red;
+    border-radius: 6px;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+span {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: red;
+    font-size: 50px;
+}
