@@ -1,0 +1,48 @@
+body {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+img:nth-of-type(1) {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img:nth-of-type(2) {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+img:nth-of-type(3) {
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+img:nth-of-type(4) {
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+}
+
+.main {
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 432px;
+    height: 232px;
+    outline: 5px solid black;
+    box-shadow: 0 0 0 8px white, 0 0 0 13px black, 0 0 0 20px white, 0 0 0 25px black, 0 0 0 28px white, 0 0 0 33px black;
+}
