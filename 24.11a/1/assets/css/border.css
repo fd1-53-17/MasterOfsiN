@@ -1,0 +1,29 @@
+.border6 {
+    width: 150px;
+    height: 150px;
+    border: 10px solid red;
+    outline: 10px solid violet;
+}
+
+.border6::before {
+    content: "";
+    border: 10px solid green;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    outline: 10px solid blue;
+}
+
+.border6::after {
+    content: "";
+    border: 10px solid;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    outline: 10px solid yellow;
+
+}
