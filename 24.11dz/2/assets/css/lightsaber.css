@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+.hilt {
+    position: relative;
+    left: 50px;
+    top: 70px;
+    width: 100px;
+    height: 21px;
+    background-color: grey;
+    border-radius: 8px;
+    z-index: 0;
+}
+.razer {
+    position: absolute;
+    top: 88px;
+    left: 140px;
+    width: 1px;
+    height: 2px;
+    opacity: 0;
+    box-shadow: 0 0 15px 7px pink, 0 0 15px 8px lightcoral, 0 0 5px 14px red;
+    background-color: red;
+    border-radius: 4px;
+    transition: 2s, width 2s;
+}
+
+.main:hover .razer {
+    width: 250px;
+    opacity: 1;
+}
