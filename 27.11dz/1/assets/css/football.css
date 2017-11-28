@@ -1,0 +1,68 @@
+header {
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+    font-size: 3vw;
+    font-weight: bold;
+}
+aside {
+    float: left;
+    width: 140px;
+    background-color: yellow;
+    margin-right: 20px
+}
+footer {
+    clear: left;
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.name {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0;
+}
+.image {
+    background-image: url(../img/foto3.png);
+    width: 30vw;
+    height: 20vw;
+    float: left;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media screen and (max-width: 320px) {
+    header, .contein, aside, footer {
+        width: 100%;
+    }
+    .main {
+        position: relative;
+        height: 750px;
+    }
+    header {
+        font-size: 16px;
+    }
+    footer {
+        font-size: 16px;
+    }
+    .name {
+        font-size: 15px;
+    }
+    aside {
+        position: absolute;
+        bottom: 0;
+    }
+    .image {
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    contein {
+        position: absolute;
+        top: 0;
+    }
+    
+}
