@@ -1,0 +1,61 @@
+#menu~ul {
+    display: none;
+}
+
+#menu:not(:checked)~label[for=menu]:nth-of-type(2) {
+    display: none;
+}
+
+#menu:checked+label[for=menu] {
+    display: none;
+}
+
+#menu2 {
+    display: none;
+}
+
+#menu:checked~ul {
+    display: block;
+    outline: 1px solid green;
+    width: 100px;
+    height: 80px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+#menu2~ul {
+    display: none;
+}
+.list {
+    position: absolute;
+    top: 82px;
+}
+
+#menu2:checked~label {
+    background-color: lightgreen;
+    }
+
+#menu2:checked~label:after {
+    content: " >";
+    background-color: lightgreen;
+    padding-left: 32px;
+}
+
+#menu2:checked~ul {
+    display: block;
+    outline: 1px solid blue;
+    width: 100px;
+    height: 75px;
+    margin-left: 100px;
+    margin-top: -20px;
+    padding-left: 0px;
+    list-style: none;
+}
+#menu2:checked~li:nth-of-type(n+1) {
+    color: red;
+}
+
+.blue:hover {
+    background-color: lightblue;
+}
+
