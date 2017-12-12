@@ -1,0 +1,121 @@
+.head {
+    padding-left: 15vw;
+}
+input {
+    display: none;
+}
+label {
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+label:nth-of-type(1), label:nth-of-type(2) {
+    margin-right: 20vw;
+}
+#zavtrak:checked~label:nth-of-type(1) {
+    background-color: red;
+    padding: 0px 3vw;
+}
+#obed:checked~label:nth-of-type(2) {
+    background-color: red;
+    padding: 0px 3vw;
+}
+#uzin:checked~label:nth-of-type(3) {
+    background-color: red;
+    padding: 0px 3vw;
+}
+.main {
+    position: relative;
+    top: 20px;
+    height: 30vw;
+    background-color: lightblue;
+}
+.bludo1, .bludo21, .bludo31 {
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    top: 2vw;
+    left: 8vw;
+}
+.bludo1 {
+    background-image: url(../img/kasha.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.bludo21 {
+    background-image: url(../img/sup.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s;
+}
+.bludo31 {
+    background-image: url(../img/spagetti.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s;
+}
+.bludo2, .bludo22, .bludo32 {
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    top: 2vw;
+    left: 39vw;
+}
+.bludo2 {
+    background-image: url(../img/salad.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s;
+}
+.bludo22 {
+    background-image: url(../img/cake.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s;
+}
+.bludo32 {
+    background-image: url(../img/pizza.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s;
+}
+.bludo3, .bludo23, .bludo33 {
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    top: 2vw;
+    right: 3vw;
+}
+.bludo3 {
+    background-image: url(../img/coffee.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s;
+}
+.bludo23 {
+    background-image: url(../img/juice.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s ;
+}
+.bludo33 {
+    background-image: url(../img/beer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 2s;
+}
+#zavtrak:checked~.bludo1 {
+    opacity: 1;
+    z-index: 1;
+}
+
