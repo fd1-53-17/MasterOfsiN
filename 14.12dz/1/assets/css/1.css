@@ -1,0 +1,106 @@
+.chessTable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+div {
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    display: block;
+    background-color: lightyellow;
+}
+
+div:nth-of-type(2)::after,
+div:nth-of-type(92)::after {
+    content: 'a';
+}
+
+div:nth-of-type(3)::after,
+div:nth-of-type(93)::after {
+    content: 'b';
+}
+
+div:nth-of-type(4)::after,
+div:nth-of-type(94)::after {
+    content: 'c';
+}
+
+div:nth-of-type(5)::after,
+div:nth-of-type(95)::after {
+    content: 'd';
+}
+
+div:nth-of-type(6)::after,
+div:nth-of-type(96)::after {
+    content: 'e';
+}
+
+div:nth-of-type(7)::after,
+div:nth-of-type(97)::after {
+    content: 'f';
+}
+
+div:nth-of-type(8)::after,
+div:nth-of-type(98)::after {
+    content: 'g';
+}
+
+div:nth-of-type(9)::after,
+div:nth-of-type(99)::after {
+    content: 'h';
+}
+
+div:nth-of-type(11)::after,
+div:nth-of-type(20)::after {
+    content: '1';
+}
+
+div:nth-of-type(21)::after,
+div:nth-of-type(30)::after {
+    content: '2';
+}
+
+div:nth-of-type(31)::after,
+div:nth-of-type(40)::after {
+    content: '3';
+}
+
+div:nth-of-type(41)::after,
+div:nth-of-type(50)::after {
+    content: '4';
+}
+
+div:nth-of-type(51)::after,
+div:nth-of-type(60)::after {
+    content: '5';
+}
+
+div:nth-of-type(61)::after,
+div:nth-of-type(70)::after {
+    content: '6';
+}
+
+div:nth-of-type(71)::after,
+div:nth-of-type(80)::after {
+    content: '7';
+}
+
+div:nth-of-type(81)::after,
+div:nth-of-type(90)::after {
+    content: '8';
+}
+
+.black {
+    background-color: black;
+}
