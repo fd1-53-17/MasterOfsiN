@@ -1,0 +1,26 @@
+path,
+ellipse,
+rect {
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+#svg_1:hover {
+    stroke-width: 10;
+    fill: red;
+    stroke: grey;
+}
+
+#svg_2:hover {
+    stroke-width: 10;
+    fill: pink;
+    stroke: orange;
+    opacity: 0.6;
+}
+
+ellipse:hover {
+    rx: 100;
+    ry: 80;
+    fill: cyan;
+}

@@ -1,0 +1,145 @@
+.ball {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 100%;
+    -webkit-box-shadow: inset 0px -30px 50px pink,
+    inset 0px -10px 60px black;
+            box-shadow: inset 0px -30px 50px pink,
+    inset 0px -10px 60px black;
+    -webkit-animation: ball 2s linear infinite,
+    move 8s linear alternate infinite;
+            animation: ball 2s linear infinite,
+    move 8s linear alternate infinite;
+    z-index: 10;
+
+}
+
+.shadow {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100%;
+    bottom: 100px;
+    -webkit-animation: shadow 2s linear infinite,
+    move 8s linear alternate infinite;
+            animation: shadow 2s linear infinite,
+    move 8s linear alternate infinite;
+
+}
+
+@-webkit-keyframes move {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes move {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes ball {
+    from,
+    to {
+        bottom: 450px;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+    49% {
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        bottom: 100px;
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        width: 125px;
+        height: 50px;
+    }
+    65% {
+        width: 80px;
+        height: 110px;
+    }
+}
+
+@keyframes ball {
+    from,
+    to {
+        bottom: 450px;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+    49% {
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        bottom: 100px;
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        width: 125px;
+        height: 50px;
+    }
+    65% {
+        width: 80px;
+        height: 110px;
+    }
+}
+
+@-webkit-keyframes shadow {
+    from {
+        opacity: 0.2;
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+    to {
+        opacity: 0.2;
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+}
+
+@keyframes shadow {
+    from {
+        opacity: 0.2;
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+    to {
+        opacity: 0.2;
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+}
