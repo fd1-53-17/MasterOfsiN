@@ -1,0 +1,41 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#block {
+    width: 300px;
+    height: 150px;
+    background-color: black;
+}
+
+#ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+#treangle {
+    border-top: 125px solid rgba(10%, 20%, 10%, 0);
+    border-bottom: 125px solid rgba(10%, 20%, 10%, 0);
+    border-right: 125px solid rgba(10%, 20%, 10%, 0);
+    border-left: 125px solid green;
+}
+
+#block:target,
+#ball:target,
+#treangle:target,
+#block:not(:target)~#treangle,
+#ball:not(:target)~#treangle {
+    display: block;
+}
+
+#block:not(:target),
+#ball:not(:target),
+#treangle:not(:target),
+#block:target~#treangle,
+#ball:target~#treangle {
+    display: none;
+}
