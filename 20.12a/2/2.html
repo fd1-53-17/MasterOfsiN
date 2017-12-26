@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="assets/css/video.css" type="text/css" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script type="text/javascript">
+        var info = [];
+        info.push(prompt('Введите имя'));
+        info.push(prompt('Введите фамилию'));
+        info.push(prompt('Введите отчество'));
+        alert(info.pop());
+        alert(info.pop());
+        alert(info.pop());
+        console.log(info);
+        info.push(prompt('Введите имя'));
+        info.push(prompt('Введите фамилию'));
+        info.push(prompt('Введите отчество'));
+        alert(info.shift());
+        alert(info.shift());
+        alert(info.shift());
+        console.log(info);
+    </script>
+</body>
+
+</html>
