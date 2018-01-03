@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="slick/slick/slick-theme.css" type="text/css" />
+    <link rel="stylesheet" href="slick/slick/slick.css" type="text/css" />
+    <style>
+        .myslick {
+            width: 50%;
+            transform: translateX(50%);
+        }
+        body {
+            background-color: blue;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="slick/slick/slick.js"></script>
+    <script>
+        $(document).ready(
+            function() {
+                $('.myslick').slick({
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+            }
+        );
+    </script>
+</head>
+
+<body>
+    <div class="myslick">
+        <div><img src="https://otvetytut.ru/uploads/photo_83216_medium.jpg"></div>
+        <div><img src="https://a.d-cd.net/14606aes-100.jpg"></div>
+        <div><img src="https://d37ta6l1gshlok.cloudfront.net/user-thumbnail/9159/2879159_3145076_0-100.jpg"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            console.log("ready!");
+            $('button').on('click', function() { 
+                console.log(this, arguments); });
+        });
+    </script>
+</head>
+
+<body>
+    <button id="btn1">knopka</button>
+    <button id="btn2">knopka</button>
+    <button id="btn3">knopka</button>
+    <button id="btn4">knopka</button>
+    <button id="btn5">knopka</button>
+    <button id="btn6">knopka</button>
+</body>
+
+</html>
