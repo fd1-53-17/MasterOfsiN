@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet">
+    <meta charset="utf-8">
+    <script defer>
+    alert('privet')
+        function clickListener(element) {
+            console.log('button');
+        }
+
+        function clickListener() {
+            var myButton = document.querySelector('button');
+            myButton.width = '400';
+            myButton.style.height = "160px";
+            myButton.className = "radius";
+        }
+    </script>
+    <style>
+    .radius {
+        border-radius: 50%;
+    }
+    </style>
+
+</head>
+
+<body onClick="clickListener('body');">
+    <p id="document" onClick="clickListener('p');">HELLO</p>
+    <p><button type="button" name="knopka" class="knopka" onClick="clickListener('button')">это кнопка</button></p>
+
+
+</body>
+
+
+</html>
